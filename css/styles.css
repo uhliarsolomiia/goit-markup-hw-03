@@ -431,9 +431,7 @@ footer {
 .filter-list > .filter-item {
   margin-right: 8px;
 }
-.filter-item:nth-child(3) {
-  drop-shadow: rgba(0, 0, 0, 0.25);
-}
+
 .filter-btn {
   background-color: var(--background);
   font-family: inherit;

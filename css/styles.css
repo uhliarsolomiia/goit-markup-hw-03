@@ -444,6 +444,9 @@ footer {
 .nav-portfolio {
   color: var(--accent);
   text-decoration: none;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-portfolio:hover,
@@ -481,6 +484,7 @@ footer {
   color: var(--title-text-color);
   cursor: pointer;
   margin-left: auto;
+  margin-right: 8px;
   display: inline-block;
   border-radius: 4px;
   border: none;
@@ -534,6 +538,8 @@ footer {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .galery-text {

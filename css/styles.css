@@ -74,8 +74,6 @@ img {
 .nav-header {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .nav-list {
@@ -85,10 +83,13 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
+  margin-left: 70px;
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
   display: flex;
 }
+
 .nav-item {
   margin-right: 50px;
 }
@@ -100,6 +101,8 @@ img {
   color: var(--title-text-color);
   text-decoration: none;
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav:hover,
@@ -110,6 +113,8 @@ img {
   color: var(--accent);
   text-decoration: none;
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-studio:hover,
@@ -126,6 +131,7 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
+  padding-left: 0;
 }
 
 .contacts-list > .contacts-item {
@@ -166,6 +172,8 @@ img {
 .hero {
   background-color: var(--background-color-hero);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -175,10 +183,13 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   margin-top: 0;
   margin-bottom: 30px;
-  padding-right: 452px;
-  padding-left: 452px;
+  max-width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
 }
 
 .btn-style {
@@ -224,6 +235,9 @@ img {
 .sections-title {
   color: var(--title-text-color);
 }
+.section-bf {
+  padding-top: 94px;
+}
 .benefits-list {
   list-style: none;
   margin: 0;
@@ -231,10 +245,15 @@ img {
   display: flex;
 }
 
-.benefits-item {
+.benefits-items {
   width: 270px;
   display: inline-block;
   margin-right: 30px;
+}
+.benefits-items-last {
+  width: 270px;
+  display: inline-block;
+  margin-right: 0;
 }
 
 .benefits-title {
@@ -266,7 +285,10 @@ img {
   flex-basis: calc(100% / 3);
   margin-right: 30px;
 }
-
+.features-items-last {
+  flex-basis: calc(100% / 3);
+  margin-right: 0px;
+}
 .features-title,
 .team-title {
   font-weight: 700;
@@ -302,10 +324,25 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.team-items-last {
+  flex-basis: calc(100% / 4);
+  margin-right: 0;
+  border-bottom: 1px solid #000000;
+  border-radius: 4px;
+  background: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .team-title {
   padding: 0;
   margin-top: 0;
   margin-bottom: 50px;
+}
+.team-about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .team-name {
   color: var(--title-text-color);
@@ -314,8 +351,8 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
+  margin-top: auto;
 }
 
 .team-position {
@@ -325,8 +362,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0;
-  margin-bottom: 16px;
 }
+
 .team-items {
   background-color: var(--background-color);
 }

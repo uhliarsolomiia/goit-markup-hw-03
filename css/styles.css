@@ -36,8 +36,6 @@ header {
 
   padding-left: 15px;
   padding-right: 15px;
-
-  align-items: center;
 }
 .section {
   padding-top: 94px;
@@ -380,7 +378,11 @@ img {
 }
 footer {
   background-color: var(--background-color-hero);
-  height: 252px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+address {
+  margin-top: 20px;
 }
 
 .logo-adress {
@@ -391,18 +393,21 @@ footer {
   letter-spacing: 0.03em;
   color: var(--accent);
   text-decoration: none;
-  margin-top: 60px;
   display: inline-block;
 }
 .colorstudio-adress {
   color: var(--background-color);
 }
+
 .adress-list {
   list-style: none;
   font-style: normal;
-  margin-top: 20px;
+  margin-top: 0;
   padding: 0;
-  margin-bottom: 60px;
+  margin-bottom: 0;
+}
+.adress-item {
+  margin-bottom: 9px;
 }
 .adress-link {
   font-weight: 400;
@@ -419,6 +424,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
 .adress-number {
@@ -457,19 +463,14 @@ footer {
 .filter-list {
   list-style: none;
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   padding: 0;
   display: flex;
   justify-content: center;
 }
 
 .filter-item {
-  margin-right: 0;
   align-items: center;
-}
-
-.filter-list > .filter-item {
-  margin-right: 8px;
 }
 
 .filter-btn {
@@ -493,7 +494,30 @@ footer {
   padding-left: 22px;
   padding-right: 22px;
 }
-
+.filter-btn-last {
+  background-color: var(--background);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  cursor: pointer;
+  margin-left: auto;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.filter-btn-last:hover .filter-btn-last:focus {
+  background-color: var(--accent);
+  color: var(--background-color);
+}
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--accent);

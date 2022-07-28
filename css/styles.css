@@ -407,8 +407,9 @@ address {
   margin-bottom: 0;
 }
 .adress-item {
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
+
 .adress-link {
   font-weight: 400;
   font-size: 14px;
@@ -424,7 +425,6 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-bottom: 9px;
 }
 
 .adress-number {

@@ -407,7 +407,7 @@ address {
   margin-bottom: 0;
 }
 .adress-item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .adress-link {
@@ -471,6 +471,10 @@ address {
 
 .filter-item {
   align-items: center;
+  margin-right: 8px;
+}
+.filter-list .filter-item:last-child {
+  margin: 0;
 }
 
 .filter-btn {
@@ -485,7 +489,6 @@ address {
   color: var(--title-text-color);
   cursor: pointer;
   margin-left: auto;
-  margin-right: 8px;
   display: inline-block;
   border-radius: 4px;
   border: none;
@@ -494,30 +497,7 @@ address {
   padding-left: 22px;
   padding-right: 22px;
 }
-.filter-btn-last {
-  background-color: var(--background);
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  cursor: pointer;
-  margin-left: auto;
-  display: inline-block;
-  border-radius: 4px;
-  border: none;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 22px;
-  padding-right: 22px;
-}
-.filter-btn-last:hover .filter-btn-last:focus {
-  background-color: var(--accent);
-  color: var(--background-color);
-}
+
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--accent);
